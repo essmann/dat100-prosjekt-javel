@@ -1,6 +1,5 @@
 package no.hvl.dat100.javel.oppgave1;
 
-import static no.hvl.dat100.javel.oppgave1.DayPowerData.*;
 
 public class DailyPower {
 

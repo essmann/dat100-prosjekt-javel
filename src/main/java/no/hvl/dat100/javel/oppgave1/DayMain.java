@@ -25,7 +25,6 @@ public class DayMain {
         System.out.println(spotPrice + " NOK");
         System.out.println("e & f) money saved with power support for one day");
         System.out.println(DailyPower.computePowerSupport(powerusage_day, powerprices_day) + " NOK");
-        System.out.println("==============");
         System.out.println();
         System.out.println("g) Norgespris for one day");
         System.out.println(DailyPower.computeNorgesPrice(powerusage_day) + " NOK");
