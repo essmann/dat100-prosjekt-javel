@@ -9,6 +9,10 @@ public class CustomersMain {
 
         System.out.println("==============");
         System.out.println("OPPGAVE 4");
+        System.out.println("a) Testing customers constructor..");
+        Customers customers = new Customers(20);
+        System.out.println("Customers object initialized.");
+        System.out.println("b) testing countNonNull().. number: " + customers.countNonNull());
         System.out.println("==============");
         System.out.println();
 
