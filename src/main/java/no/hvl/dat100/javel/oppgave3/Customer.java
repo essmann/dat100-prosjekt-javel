@@ -20,20 +20,25 @@ public class Customer {
     }
 
     // TODO - getter/setter methods for all objectvariables
-    String getEmail(){
+    public String getEmail() {
         return this.email;
     }
-    String getName(){
+
+    public String getName() {
         return this.name;
     }
-    PowerAgreementType getAgreement(){
+
+    public PowerAgreementType getAgreement() {
         return this.agreement;
     }
-    int getCustomerId(){
+
+    public int getCustomerId() {
         return this.customer_id;
     }
+
     // TODO - toString method
-    @Override public String toString(){
+    @Override
+    public String toString() {
         String str = " Customer number %d \n Name %s \n Email %s \n Agreement %s ";
         return String.format(str, customer_id, name, email, agreement);
     }

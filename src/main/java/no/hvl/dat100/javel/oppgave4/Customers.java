@@ -10,6 +10,7 @@ public class Customers {
     public Customers(int size) {
 
         // TODO
+        this.customers = new Customer[size];
 
     }
 
@@ -18,6 +19,11 @@ public class Customers {
 
 
         int count = 0;
+        for(Customer customer : this.customers){
+            if(customer != null){
+                count ++;
+            }
+        }
 
         // TODO
 
@@ -30,6 +36,8 @@ public class Customers {
         boolean funnet = false;
         Customer c = null;
 
+        for(Customer customer : this.customers){
+        }
         // TODO
 
         return c;
