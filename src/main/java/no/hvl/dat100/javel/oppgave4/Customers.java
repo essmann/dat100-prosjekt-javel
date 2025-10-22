@@ -54,7 +54,7 @@ public class Customers {
         boolean inserted = false;
 
         for (int i = 0; i < this.customers.length; i++) {
-            if (this.customers[i] != null) {
+            if (this.customers[i] == null) {
                 customers[i] = c;
                 inserted = true;
                 break;
